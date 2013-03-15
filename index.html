@@ -1,174 +1,49 @@
+<!DOCTYPE html>
+<html>
 
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-
-<html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    
-    <title>Smarkets Python API Client &mdash; smk_python_sdk 0.3.1 documentation</title>
-    
-    <link rel="stylesheet" href="_static/default.css" type="text/css" />
-    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    
-    <script type="text/javascript">
-      var DOCUMENTATION_OPTIONS = {
-        URL_ROOT:    '',
-        VERSION:     '0.3.1',
-        COLLAPSE_INDEX: false,
-        FILE_SUFFIX: '.html',
-        HAS_SOURCE:  true
-      };
-    </script>
-    <script type="text/javascript" src="_static/jquery.js"></script>
-    <script type="text/javascript" src="_static/underscore.js"></script>
-    <script type="text/javascript" src="_static/doctools.js"></script>
-    <link rel="top" title="smk_python_sdk 0.3.1 documentation" href="#" />
-    <link rel="next" title="Introduction" href="user/intro.html" /> 
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="smk_python_sdk : Smarkets Python SDK" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>smk_python_sdk</title>
   </head>
+
   <body>
-    <div class="related">
-      <h3>Navigation</h3>
-      <ul>
-        <li class="right" style="margin-right: 10px">
-          <a href="genindex.html" title="General Index"
-             accesskey="I">index</a></li>
-        <li class="right" >
-          <a href="py-modindex.html" title="Python Module Index"
-             >modules</a> |</li>
-        <li class="right" >
-          <a href="user/intro.html" title="Introduction"
-             accesskey="N">next</a> |</li>
-        <li><a href="#">smk_python_sdk 0.3.1 documentation</a> &raquo;</li> 
-      </ul>
-    </div>  
 
-    <div class="document">
-      <div class="documentwrapper">
-        <div class="bodywrapper">
-          <div class="body">
-            
-  <div class="section" id="smarkets-python-api-client">
-<h1>Smarkets Python API Client<a class="headerlink" href="#smarkets-python-api-client" title="Permalink to this headline">¶</a></h1>
-<p>Release v0.3.1 (<a class="reference internal" href="user/install.html#install"><em>Installation</em></a>)</p>
-<p>The Smarkets Python API Client (smk_python_sdk) is a Python
-implementation of a <a class="reference external" href="https://smarkets.com/">Smarkets</a> streaming <a class="reference external" href="https://smarkets.github.com/">API
-client</a>.</p>
-<p>Our intention for providing a Python reference implementation is to
-allow developers to quickly build applications in Python that make use
-of the Smarkets exchange.</p>
-<div class="section" id="user-guide">
-<h2>User Guide<a class="headerlink" href="#user-guide" title="Permalink to this headline">¶</a></h2>
-<p>This section provides a quick overview of the general design
-philosophy behind the Python API client as well as step-by-step
-instructions for getting started using the client.</p>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="user/intro.html">Introduction</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="user/intro.html#philosophy">Philosophy</a></li>
-<li class="toctree-l2"><a class="reference internal" href="user/intro.html#mit-license">MIT License</a></li>
-<li class="toctree-l2"><a class="reference internal" href="user/intro.html#smarkets-python-api-client-license">Smarkets Python API Client License</a></li>
-<li class="toctree-l2"><a class="reference internal" href="user/intro.html#python-interpreters">Python Interpreters</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="user/install.html">Installation</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="user/install.html#requirements">Requirements</a></li>
-<li class="toctree-l2"><a class="reference internal" href="user/install.html#pip">Pip</a></li>
-<li class="toctree-l2"><a class="reference internal" href="user/install.html#github">Github</a></li>
-<li class="toctree-l2"><a class="reference internal" href="user/install.html#installing-from-source">Installing from source</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="user/quickstart.html">Quickstart</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="user/quickstart.html#setting-up-logging">Setting up logging</a></li>
-<li class="toctree-l2"><a class="reference internal" href="user/quickstart.html#starting-a-session">Starting a session</a></li>
-<li class="toctree-l2"><a class="reference internal" href="user/quickstart.html#resuming-a-session">Resuming a session</a></li>
-<li class="toctree-l2"><a class="reference internal" href="user/quickstart.html#placing-a-bet">Placing a bet</a></li>
-<li class="toctree-l2"><a class="reference internal" href="user/quickstart.html#registering-callback-functions">Registering callback functions</a></li>
-</ul>
-</li>
-</ul>
-</div>
-</div>
-<div class="section" id="api-documentation">
-<h2>API Documentation<a class="headerlink" href="#api-documentation" title="Permalink to this headline">¶</a></h2>
-<p>Specific modules, classes and methods are listed in this section.</p>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="api.html">API</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="api.html#session">Session</a></li>
-<li class="toctree-l2"><a class="reference internal" href="api.html#client">Client</a></li>
-<li class="toctree-l2"><a class="reference internal" href="api.html#internals">Internals</a></li>
-</ul>
-</li>
-</ul>
-</div>
-</div>
-<div class="section" id="support">
-<h2>Support<a class="headerlink" href="#support" title="Permalink to this headline">¶</a></h2>
-<p>Stuck? Found a bug? If you are looking for help, please contact
-Smarkets directly <a class="reference external" href="mailto:support&#37;&#52;&#48;smarkets&#46;com?subject=Python%20API%20Client">via email on support<span>&#64;</span>smarkets<span>&#46;</span>com</a>.</p>
-</div>
-</div>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/smarkets/smk_python_sdk">View on GitHub</a>
 
+          <h1 id="project_title">smk_python_sdk</h1>
+          <h2 id="project_tagline">Smarkets Python SDK</h2>
 
-          </div>
-        </div>
-      </div>
-      <div class="sphinxsidebar">
-        <div class="sphinxsidebarwrapper">
-  <h3><a href="#">Table Of Contents</a></h3>
-  <ul>
-<li><a class="reference internal" href="#">Smarkets Python API Client</a><ul>
-<li><a class="reference internal" href="#user-guide">User Guide</a><ul>
-</ul>
-</li>
-<li><a class="reference internal" href="#api-documentation">API Documentation</a><ul>
-</ul>
-</li>
-<li><a class="reference internal" href="#support">Support</a></li>
-</ul>
-</li>
-</ul>
-
-  <h4>Next topic</h4>
-  <p class="topless"><a href="user/intro.html"
-                        title="next chapter">Introduction</a></p>
-<div id="searchbox" style="display: none">
-  <h3>Quick search</h3>
-    <form class="search" action="search.html" method="get">
-      <input type="text" name="q" />
-      <input type="submit" value="Go" />
-      <input type="hidden" name="check_keywords" value="yes" />
-      <input type="hidden" name="area" value="default" />
-    </form>
-    <p class="searchtip" style="font-size: 90%">
-    Enter search terms or a module, class or function name.
-    </p>
-</div>
-<script type="text/javascript">$('#searchbox').show(0);</script>
-        </div>
-      </div>
-      <div class="clearer"></div>
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/smarkets/smk_python_sdk/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/smarkets/smk_python_sdk/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
     </div>
-    <div class="related">
-      <h3>Navigation</h3>
-      <ul>
-        <li class="right" style="margin-right: 10px">
-          <a href="genindex.html" title="General Index"
-             >index</a></li>
-        <li class="right" >
-          <a href="py-modindex.html" title="Python Module Index"
-             >modules</a> |</li>
-        <li class="right" >
-          <a href="user/intro.html" title="Introduction"
-             >next</a> |</li>
-        <li><a href="#">smk_python_sdk 0.3.1 documentation</a> &raquo;</li> 
-      </ul>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p>The documentation is now hosted on <a href="https://smarkets-python-sdk.readthedocs.org/">https://smarkets-python-sdk.readthedocs.org/</a>.</p>
+      </section>
     </div>
-    <div class="footer">
-        &copy; Copyright 2011, Smarkets Limited.
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">smk_python_sdk maintained by <a href="https://github.com/smarkets">smarkets</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
     </div>
+
+    
+
   </body>
 </html>
