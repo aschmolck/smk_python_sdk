@@ -39,6 +39,7 @@ def _safe_glob(pathname):
 
 protobuf_modules = ['eto', 'seto']
 
+
 def protobuf_module_file(name):
     return join(PROJECT_ROOT, 'smarkets', 'streaming_api', '%s.py' % (name,))
 
